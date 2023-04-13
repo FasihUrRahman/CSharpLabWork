@@ -1,4 +1,5 @@
 ﻿//Starting Heading
+//BitWise
 Console.WriteLine("BitWise");
 //Bitwise will gives us (and) and (or) answers from binary to decimal
 Console.Write("16 | 10 OR Bitwise is = ");
@@ -17,7 +18,10 @@ Console.WriteLine(16 & 10); //AND Bitwise
 //--------------------------
 //         0  0  0  0  0  0     Performed AND Operation on Both we get this answer
 //                        0     because of zero bit active we'll get the answer as Zero
+
+//Variables And Constants
 Console.WriteLine("Variables And Constants");
+//Variables
 //Decleration and Initilization of a variable
 int age = 25; //Data Type Integer
 Console.WriteLine("My Age is " + age); //Concatination with string
@@ -47,4 +51,13 @@ Console.WriteLine(workDone);
 //Constant
 const string companyName = "AgencyPrism"; //const is short form of Constant and can not be changed after once it's value done
 Console.WriteLine("My Company's Name is " + companyName + ". In " + companyName + " We all work together.");
+
+//A Small Working Discount Function
+const int totalDiscountInPercentage = 30; //constant initilization
+int productPrice, discountPrice, totalPriceAfterDiscount; //variable initilization
+productPrice = 200;
+discountPrice = (productPrice * totalDiscountInPercentage) / 100; //formula for discount price
+totalPriceAfterDiscount = productPrice - discountPrice; //Actual Price after Discount
+Console.WriteLine("You Purchase the Product at Cost Rs." + productPrice + ". On this product you'll get the Discount of " + totalDiscountInPercentage + "%. Your Current " +
+    "Price that you have to pay after Discount is Rs." + totalPriceAfterDiscount);
 Console.ReadKey();
