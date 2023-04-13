@@ -21,6 +21,7 @@ Console.WriteLine(16 & 10); //AND Bitwise
 
 //Variables And Constants
 Console.WriteLine("Variables And Constants");
+Console.WriteLine("Variables");
 //Variables
 //Decleration and Initilization of a variable
 int age = 25; //Data Type Integer
@@ -49,10 +50,12 @@ bool workDone = true; //bool is the short form of Boolean and it's Used for gett
 Console.WriteLine(workDone);
 
 //Constant
+Console.WriteLine("Constants");
 const string companyName = "AgencyPrism"; //const is short form of Constant and can not be changed after once it's value done
 Console.WriteLine("My Company's Name is " + companyName + ". In " + companyName + " We all work together.");
 
 //A Small Working Discount Function
+Console.WriteLine("Application of Variable and Constant with Operators");
 const int totalDiscountInPercentage = 30; //constant initilization
 int productPrice, discountPrice, totalPriceAfterDiscount; //variable initilization
 productPrice = 200;
