@@ -38,9 +38,11 @@ firstLaterOfMyName = 'F'; //Char can Store only one charater
 Console.WriteLine("My Name is Fasih and the First Word of my Name is " + firstLaterOfMyName);
 string collegeName = "The Tips"; //string Can Store as Many Charaters as We Want
 Console.WriteLine("My College Name is " + collegeName);
-mapCoordinatX = 0.742937423683;//Variables can be change at any time according to requirement
+mapCoordinatX = 0.742937423683; //Variables can be change at any time according to requirement
 mapCoordinatY = 0.742856294239;
 Console.WriteLine("Now My New Current Location's Coordinates are " + mapCoordinatX + "X " + mapCoordinatY + "Y");
+bool workDone = true; //bool is the short form of Boolean and it's Used for getting the value as 1 or 0 | True or False
+Console.WriteLine(workDone);
 
 //Constant
 const string companyName = "AgencyPrism"; //const is short form of Constant and can not be changed after once it's value done
