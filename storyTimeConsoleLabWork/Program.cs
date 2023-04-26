@@ -1,7 +1,7 @@
-﻿string tabSpace = "\t\t\t\t";
-string newLine = "\n";
-string tab = "\t";
-string heading = "Short Story(The Student)";
+﻿string tabSpace = "\t\t\t\t"; //For Tab Spaces
+string newLine = "\n"; //For new Line
+string tab = "\t"; //For single tab
+string heading = "Short Story(The Student)"; //Heading Line
 string contentParagraph1 = "AT first the weather was fine and still. The thrushes were calling, " +
     "and in the swamps close by something alive droned pitifully with a sound like blowing " +
     "into an empty bottle. A snipe flew by, and the shot aimed at it rang out with a gay, resounding " +
@@ -23,17 +23,17 @@ string contentParagraph1 = "AT first the weather was fine and still. The thrushe
     "same desperate poverty and hunger, the same thatched roofs with holes in them, ignorance, " +
     "misery, the same desolation around, the same darkness, the same feeling of oppression—all " +
     "these had existed, did exist, and would exist, and the lapse of a thousand years would make life " +
-    "no better. And he did not want to go home.";
+    "no better. And he did not want to go home."; //Main Paragraph
 string contentParagraph2 = "The gardens were called the widows' because they were kept by two widows, " +
     "mother and daughter. A camp fire was burning brightly with a crackling sound, throwing out " +
     "light far around on the ploughed earth. The widow Vasilisa, a tall, fat old woman in a man's " +
     "coat, was standing by and looking thoughtfully into the fire; her daughter Lukerya, a little " +
     "pock-marked woman with a stupid-looking face, was sitting on the ground, washing a caldron and spoons." +
     " Apparently they had just had supper. There was a sound of men's voices; it was the " +
-    "labourers watering their horses at the river.";
-string goodByeMessage = "Press Any Key to end...";
-Console.WriteLine(tabSpace + heading);
-Console.WriteLine(tab + contentParagraph1);
-Console.WriteLine(tab + contentParagraph2);
-Console.Write(goodByeMessage);
-Console.ReadKey();
+    "labourers watering their horses at the river."; //Ending Paragraph
+string goodByeMessage = "Press Any Key to end..."; //End Line
+Console.WriteLine(tabSpace + heading); //Calling Heading With Some Extra Tabs
+Console.WriteLine(tab + contentParagraph1); //Calling Single Tab and Main Paragraph
+Console.WriteLine(tab + contentParagraph2); //Calling Ending Paragraph with Single Tab
+Console.Write(goodByeMessage);  //Calling End Line
+Console.ReadKey();  //Waiting for input
