@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectConsole", "ProjectConsole\ProjectConsole.csproj", "{276DE174-9BB4-4799-A9FB-5FAD07D93865}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1-ProjectConsole", "ProjectConsole\1-ProjectConsole.csproj", "{276DE174-9BB4-4799-A9FB-5FAD07D93865}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperatorsConsoleLabWork", "OperatorsConsoleLabWork\OperatorsConsoleLabWork.csproj", "{C2DA2E90-1B39-4F15-9F25-B6B9E4D4A5D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2-OperatorsConsoleLabWork", "OperatorsConsoleLabWork\2-OperatorsConsoleLabWork.csproj", "{C2DA2E90-1B39-4F15-9F25-B6B9E4D4A5D6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bitWiseDataTypesVariableAndConstantConsoleLabWork", "bitWiseDataTypesVariableAndConstantEscapeSequanceConsoleLabWork\bitWiseDataTypesVariableAndConstantConsoleLabWork.csproj", "{E4316400-1122-4811-82B9-23413F433156}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4-bitWiseDataTypesVariableAndConstantConsoleLabWork", "bitWiseDataTypesVariableAndConstantEscapeSequanceConsoleLabWork\4-bitWiseDataTypesVariableAndConstantConsoleLabWork.csproj", "{E4316400-1122-4811-82B9-23413F433156}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "storyTimeConsoleAndEscapeSequanceLabWork", "storyTimeConsoleLabWork\storyTimeConsoleAndEscapeSequanceLabWork.csproj", "{60AEBB83-8575-4CCC-A816-58181879638A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3-storyTimeConsoleAndEscapeSequanceLabWork", "storyTimeConsoleLabWork\3-storyTimeConsoleAndEscapeSequanceLabWork.csproj", "{60AEBB83-8575-4CCC-A816-58181879638A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
