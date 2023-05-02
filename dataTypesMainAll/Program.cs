@@ -74,11 +74,11 @@ Console.WriteLine($"My Name is {fName} {lName}");
 
 //Get First Char of string
 string myString = "Hello";
-Console.WriteLine(myString[0]);
+Console.WriteLine($"First Character of {myString} is {myString[0]} and Last Character of {myString} is {myString[(myString.Length - 1)]}");
 
 //Get String Length
 string txt = "Hello";
-Console.WriteLine(txt.Length);
+Console.WriteLine($"{txt} has {txt.Length} Characters");
 
 //Convert to Upper Case
 string txt1 = "Hello World";
