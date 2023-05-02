@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4-bitWiseDataTypesVariableA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3-storyTimeConsoleAndEscapeSequanceLabWork", "storyTimeConsoleLabWork\3-storyTimeConsoleAndEscapeSequanceLabWork.csproj", "{60AEBB83-8575-4CCC-A816-58181879638A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-ifElseifElse", "ifElseifElse\5-ifElseifElse.csproj", "{86305738-D30C-4AEB-8B26-DE60729D12ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5-ifElseifElse", "ifElseifElse\5-ifElseifElse.csproj", "{86305738-D30C-4AEB-8B26-DE60729D12ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-dataTypesMainAll", "dataTypesMainAll\6-dataTypesMainAll.csproj", "{6B6C5AFF-41B4-4B16-9B62-E1E129041210}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{86305738-D30C-4AEB-8B26-DE60729D12ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86305738-D30C-4AEB-8B26-DE60729D12ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86305738-D30C-4AEB-8B26-DE60729D12ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B6C5AFF-41B4-4B16-9B62-E1E129041210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B6C5AFF-41B4-4B16-9B62-E1E129041210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B6C5AFF-41B4-4B16-9B62-E1E129041210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B6C5AFF-41B4-4B16-9B62-E1E129041210}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
