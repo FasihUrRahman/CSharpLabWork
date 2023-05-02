@@ -1,4 +1,4 @@
-﻿int timeValue = 25; //Put Value for the time here
+﻿int timeValue = 13; //Put Value for the time here
 
 if(timeValue <= 11 && timeValue > 6) //Morning Condition
 {
