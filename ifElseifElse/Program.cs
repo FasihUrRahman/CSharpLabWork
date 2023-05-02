@@ -1,4 +1,5 @@
-﻿int timeValue = 13; //Put Value for the time here
+﻿Console.Write("Enter Hour to Get Message(1-24):"); //User Message For Input
+int timeValue = Convert.ToInt32(Console.ReadLine()); //Get Value form User
 
 if(timeValue <= 11 && timeValue > 6) //Morning Condition
 {
