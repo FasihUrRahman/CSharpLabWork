@@ -48,14 +48,15 @@ Console.WriteLine($"After Parsing The Value is {copyValueForIntParse}");
 
 //Boxing
 //Converting Value Data Type To Referance Data Type is Called Boxing
-string valueOneDynamic = "Fasih Ur Rahman";
-dynamic copyOfValueOneDynamic = Convert.D;
+dynamic valueOneDynamic = "Fasih Ur Rahman";
 var valueOneVar = 25;
 object valueOneObject = 5.9;
 Console.WriteLine($"My Name is {valueOneDynamic}. My Age is {valueOneVar} and my Height is {valueOneObject}.");
 
 //Unboxing
 //Converting Referance Data Type To Value Data Type is Called Boxing
-int a = 1;
-Console.WriteLine(valueOneVar + a);
+string copyOfValueOneDynamic = Convert.ToString(valueOneDynamic);
+int copyOfValueOneVar = Convert.ToInt32(valueOneVar);
+float copyOfValueOneObject = Convert.ToSingle(valueOneObject);
+Console.WriteLine($"My Name is {copyOfValueOneDynamic}. My Age is {copyOfValueOneVar} and my Height is {copyOfValueOneObject}.");
 Console.ReadKey();
