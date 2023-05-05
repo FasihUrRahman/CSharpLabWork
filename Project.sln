@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7-implicitExplicitBoxingUnb
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8-GeneralDataTypesOperators", "GeneralDataTypesOperators\8-GeneralDataTypesOperators.csproj", "{87725C41-E792-422D-8A32-C3C434BC59B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorsProgramExampleProgram", "OperatorsProgramExampleProgram\OperatorsProgramExampleProgram.csproj", "{75BF9D60-278F-4406-BB98-CAE81F1CFD41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9-OperatorsProgramExampleProgram", "OperatorsProgramExampleProgram\9-OperatorsProgramExampleProgram.csproj", "{75BF9D60-278F-4406-BB98-CAE81F1CFD41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
