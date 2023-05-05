@@ -24,7 +24,7 @@ Console.WriteLine($"My Name is {name} and my age is {age}");
 //Program
 float investmentValue, investmentYears, interestRate, outputValue;
 
-string inputValue;
+string? inputValue;
 Console.Write("Enter Investment Amount: ");
 inputValue = Console.ReadLine();    //String Value As Input
 investmentValue = Convert.ToSingle(inputValue); //Convert in Float
