@@ -39,3 +39,32 @@ outputValue =  (investmentValue + (investmentValue*investmentYears*interestRate)
 
 Console.WriteLine($"Your Total Amout After Profit is {outputValue} on the Investment of {investmentValue} for This {investmentYears} Much Years on the Interest Rate of {interestRate}%");
 Console.ReadLine();
+
+//Example For Student Marks
+int english, urdu, maths, science, totalMarks;
+float percentage;
+string? inputValueForMarks;
+//Marks For English
+Console.Write("Enter Number For English(1-100): ");
+inputValueForMarks =  Console.ReadLine();
+english = Convert.ToInt32(inputValueForMarks); //Convert in INT
+
+//Marks For Urdu
+Console.Write("Enter Number For Urdu(1-100): ");
+inputValueForMarks = Console.ReadLine();
+urdu = Convert.ToInt32(inputValueForMarks); //Convert in INT
+
+//Marks For Maths
+Console.Write("Enter Number For Math(1-100): ");
+inputValueForMarks = Console.ReadLine();
+maths = Convert.ToInt32(inputValueForMarks); //Convert in INT
+
+//Marks For Science
+Console.Write("Enter Number For Science(1-100): ");
+inputValueForMarks = Console.ReadLine();
+science = Convert.ToInt32(inputValueForMarks); //Convert in INT
+
+totalMarks = english+urdu+maths+science;
+percentage = (totalMarks) / 4;
+Console.Write($"You Get Total Marks {totalMarks} Out of 400. The Percentage is {percentage}");
+Console.ReadLine();
