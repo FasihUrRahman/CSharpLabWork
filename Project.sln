@@ -3,23 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1-ProjectConsole", "ProjectConsole\1-ProjectConsole.csproj", "{276DE174-9BB4-4799-A9FB-5FAD07D93865}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-ProjectConsole", "ProjectConsole\01-ProjectConsole.csproj", "{276DE174-9BB4-4799-A9FB-5FAD07D93865}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2-OperatorsConsoleLabWork", "OperatorsConsoleLabWork\2-OperatorsConsoleLabWork.csproj", "{C2DA2E90-1B39-4F15-9F25-B6B9E4D4A5D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02-OperatorsConsoleLabWork", "OperatorsConsoleLabWork\02-OperatorsConsoleLabWork.csproj", "{C2DA2E90-1B39-4F15-9F25-B6B9E4D4A5D6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4-bitWiseDataTypesVariableAndConstantConsoleLabWork", "bitWiseDataTypesVariableAndConstantEscapeSequanceConsoleLabWork\4-bitWiseDataTypesVariableAndConstantConsoleLabWork.csproj", "{E4316400-1122-4811-82B9-23413F433156}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-bitWiseDataTypesVariableAndConstantConsoleLabWork", "bitWiseDataTypesVariableAndConstantEscapeSequanceConsoleLabWork\04-bitWiseDataTypesVariableAndConstantConsoleLabWork.csproj", "{E4316400-1122-4811-82B9-23413F433156}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3-storyTimeConsoleAndEscapeSequanceLabWork", "storyTimeConsoleLabWork\3-storyTimeConsoleAndEscapeSequanceLabWork.csproj", "{60AEBB83-8575-4CCC-A816-58181879638A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-storyTimeConsoleAndEscapeSequanceLabWork", "storyTimeConsoleLabWork\03-storyTimeConsoleAndEscapeSequanceLabWork.csproj", "{60AEBB83-8575-4CCC-A816-58181879638A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5-ifElseifElse", "ifElseifElse\5-ifElseifElse.csproj", "{86305738-D30C-4AEB-8B26-DE60729D12ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05-ifElseifElse", "ifElseifElse\05-ifElseifElse.csproj", "{86305738-D30C-4AEB-8B26-DE60729D12ED}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6-dataTypesMainAll", "dataTypesMainAll\6-dataTypesMainAll.csproj", "{6B6C5AFF-41B4-4B16-9B62-E1E129041210}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06-dataTypesMainAll", "dataTypesMainAll\06-dataTypesMainAll.csproj", "{6B6C5AFF-41B4-4B16-9B62-E1E129041210}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7-implicitExplicitBoxingUnboxingGeneralDataTypes", "implicitExplicitBoxingUnboxingGeneralDataTypes\7-implicitExplicitBoxingUnboxingGeneralDataTypes.csproj", "{FDC54038-BBE8-40B9-A7B6-9E2D03315D4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07-implicitExplicitBoxingUnboxingGeneralDataTypes", "implicitExplicitBoxingUnboxingGeneralDataTypes\07-implicitExplicitBoxingUnboxingGeneralDataTypes.csproj", "{FDC54038-BBE8-40B9-A7B6-9E2D03315D4B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8-GeneralDataTypesOperators", "GeneralDataTypesOperators\8-GeneralDataTypesOperators.csproj", "{87725C41-E792-422D-8A32-C3C434BC59B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08-GeneralDataTypesOperators", "GeneralDataTypesOperators\08-GeneralDataTypesOperators.csproj", "{87725C41-E792-422D-8A32-C3C434BC59B1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9-OperatorsProgramExampleProgram", "OperatorsProgramExampleProgram\9-OperatorsProgramExampleProgram.csproj", "{75BF9D60-278F-4406-BB98-CAE81F1CFD41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09-OperatorsProgramExampleProgram", "OperatorsProgramExampleProgram\09-OperatorsProgramExampleProgram.csproj", "{75BF9D60-278F-4406-BB98-CAE81F1CFD41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-CompoundFormulasConditionsTermerrySwitchCase", "CompoundFormulasConditionsTermerrySwitchCase\10-CompoundFormulasConditionsTermerrySwitchCase.csproj", "{5BD57F2D-10AF-4FA3-A01F-F47EE3915A15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{75BF9D60-278F-4406-BB98-CAE81F1CFD41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75BF9D60-278F-4406-BB98-CAE81F1CFD41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75BF9D60-278F-4406-BB98-CAE81F1CFD41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BD57F2D-10AF-4FA3-A01F-F47EE3915A15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD57F2D-10AF-4FA3-A01F-F47EE3915A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD57F2D-10AF-4FA3-A01F-F47EE3915A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD57F2D-10AF-4FA3-A01F-F47EE3915A15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
