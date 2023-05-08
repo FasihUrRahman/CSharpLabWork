@@ -14,6 +14,7 @@ Console.WriteLine($"Value of Input is {valueInput} And The Answer For (Sin((Inpu
 Console.ReadLine();
 //Conditions
 //If Else If Else
+//it work's on the places where we need to check the argument is true or false and what code it run's on true or false statement
 int ageUserValue;
 string nameUserValue;
 Console.Write("Enter Your Name: ");
@@ -29,6 +30,7 @@ else
     Console.WriteLine($"Hello {nameUserValue}. You Your Age is {ageUserValue} and You are Immature");
 }
 //Nusted If
+//uses of if else, if else in between rapaidly is nusted if else if
 if (ageUserValue > 18)
 {
     Console.WriteLine($"Hello {nameUserValue}. You Your Age is {ageUserValue} and You are Mature");
@@ -50,5 +52,33 @@ else
 }
 Console.ReadLine();
 //Termerry
-
+//if we have to print a single line of code when the Condition is true or false we can use Termerry.
+int randomValue = 100;
+//         Variable         =   (Condition)        ? If the Condition is True This Message Will Apper: If Condition is False This Message Apper
+string answerForRandomValue = (randomValue == 100) ? "The Value You Enter is True For the Condition" : "The Value is False For the Condition";
+Console.WriteLine(answerForRandomValue);
+Console.ReadLine();
 //Switch Case
+//it's Work as if else but we can Compare the Input Value Given by User
+int valueForSwitch;
+Console.Write("Enter A Number For Message(1-4): ");
+valueForSwitch = Convert.ToInt32(Console.ReadLine());
+switch (valueForSwitch)
+{
+    case 1:
+        Console.WriteLine($"You Enter {valueForSwitch}. This Means You are in 1st Case");
+        break;
+    case 2:
+        Console.WriteLine($"You Enter {valueForSwitch}. This Means You are in 2st Case");
+        break;
+    case 3:
+        Console.WriteLine($"You Enter {valueForSwitch}. This Means You are in 3rd Case");
+        break;
+    case 4:
+        Console.WriteLine($"You Enter {valueForSwitch}. This Means You are in 4th Case");
+        break;
+    default:
+        Console.WriteLine("Invalid Number");
+        break;
+}
+Console.ReadLine();
