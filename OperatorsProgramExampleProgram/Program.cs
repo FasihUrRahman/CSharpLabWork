@@ -64,7 +64,7 @@ Console.Write("Enter Number For Science(1-100): ");
 inputValueForMarks = Console.ReadLine();
 science = Convert.ToInt32(inputValueForMarks); //Convert in INT
 
-totalMarks = english+urdu+maths+science;
-percentage = (totalMarks) / 4;
-Console.Write($"You Get Total Marks {totalMarks} Out of 400. The Percentage is {percentage}");
+totalMarks = english+urdu+maths+science; //Total Form All Subjects
+percentage = (totalMarks) / 4;  //Percentage from All Subjects
+Console.Write($"You Get Total Marks {totalMarks} Out of 400. The Percentage is {percentage}");  //Message For Subjects
 Console.ReadLine();
