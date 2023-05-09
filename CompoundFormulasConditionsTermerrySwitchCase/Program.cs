@@ -51,7 +51,7 @@ else
     Console.WriteLine($"Hello {nameUserValue}. You Your Age is {ageUserValue} and You are Immature");
 }
 Console.ReadLine();
-//Termerry
+//Ternerry
 //if we have to print a single line of code when the Condition is true or false we can use Termerry.
 int randomValue = 100;
 //         Variable         =   (Condition)        ? If the Condition is True This Message Will Apper: If Condition is False This Message Apper
