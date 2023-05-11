@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09-OperatorsProgramExampleP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10-CompoundFormulasConditionsTermerrySwitchCase", "CompoundFormulasConditionsTermerrySwitchCase\10-CompoundFormulasConditionsTermerrySwitchCase.csproj", "{5BD57F2D-10AF-4FA3-A01F-F47EE3915A15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-WhileDoWhileLoop", "WhileDoWhileLoop\11-WhileDoWhileLoop.csproj", "{202E4B73-0E31-4AA6-B4E3-A551582CFB1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11-WhileDoWhileLoop", "WhileDoWhileLoop\11-WhileDoWhileLoop.csproj", "{202E4B73-0E31-4AA6-B4E3-A551582CFB1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForLoopWhileLoopDoWhileLoopFunction", "ForLoopWhileLoopDoWhileLoopFunction\ForLoopWhileLoopDoWhileLoopFunction.csproj", "{5A97F4C8-3CF4-4D6E-9142-FFFD5919DF72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{202E4B73-0E31-4AA6-B4E3-A551582CFB1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{202E4B73-0E31-4AA6-B4E3-A551582CFB1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{202E4B73-0E31-4AA6-B4E3-A551582CFB1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A97F4C8-3CF4-4D6E-9142-FFFD5919DF72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A97F4C8-3CF4-4D6E-9142-FFFD5919DF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A97F4C8-3CF4-4D6E-9142-FFFD5919DF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A97F4C8-3CF4-4D6E-9142-FFFD5919DF72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
