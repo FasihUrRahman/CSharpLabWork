@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10-CompoundFormulasConditio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11-WhileDoWhileLoop", "WhileDoWhileLoop\11-WhileDoWhileLoop.csproj", "{202E4B73-0E31-4AA6-B4E3-A551582CFB1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForLoopWhileLoopDoWhileLoopFunction", "ForLoopWhileLoopDoWhileLoopFunction\ForLoopWhileLoopDoWhileLoopFunction.csproj", "{5A97F4C8-3CF4-4D6E-9142-FFFD5919DF72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12-ForLoopWhileLoopDoWhileLoopFunction", "ForLoopWhileLoopDoWhileLoopFunction\12-ForLoopWhileLoopDoWhileLoopFunction.csproj", "{5A97F4C8-3CF4-4D6E-9142-FFFD5919DF72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayForEachForLoop", "ArrayForEachForLoop\ArrayForEachForLoop.csproj", "{FE66CF69-2D8A-40E4-9C4A-2E50F079D92A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{5A97F4C8-3CF4-4D6E-9142-FFFD5919DF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A97F4C8-3CF4-4D6E-9142-FFFD5919DF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A97F4C8-3CF4-4D6E-9142-FFFD5919DF72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE66CF69-2D8A-40E4-9C4A-2E50F079D92A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE66CF69-2D8A-40E4-9C4A-2E50F079D92A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE66CF69-2D8A-40E4-9C4A-2E50F079D92A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE66CF69-2D8A-40E4-9C4A-2E50F079D92A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
