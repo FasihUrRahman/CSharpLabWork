@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13-ArrayForEachForLoop", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-CharMethods", "CharMethods\14-CharMethods.csproj", "{7133D5D2-2AC5-4217-BBDF-773F74DFA647}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringMethods", "StringMethods\StringMethods.csproj", "{BD11DCA1-E084-4958-90FC-E58AF6072655}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{7133D5D2-2AC5-4217-BBDF-773F74DFA647}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7133D5D2-2AC5-4217-BBDF-773F74DFA647}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7133D5D2-2AC5-4217-BBDF-773F74DFA647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD11DCA1-E084-4958-90FC-E58AF6072655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD11DCA1-E084-4958-90FC-E58AF6072655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD11DCA1-E084-4958-90FC-E58AF6072655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD11DCA1-E084-4958-90FC-E58AF6072655}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
