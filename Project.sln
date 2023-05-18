@@ -29,9 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12-ForLoopWhileLoopDoWhileL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13-ArrayForEachForLoop", "ArrayForEachForLoop\13-ArrayForEachForLoop.csproj", "{FE66CF69-2D8A-40E4-9C4A-2E50F079D92A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-CharMethods", "CharMethods\14-CharMethods.csproj", "{7133D5D2-2AC5-4217-BBDF-773F74DFA647}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14-CharMethods", "CharMethods\14-CharMethods.csproj", "{7133D5D2-2AC5-4217-BBDF-773F74DFA647}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringMethods", "StringMethods\StringMethods.csproj", "{BD11DCA1-E084-4958-90FC-E58AF6072655}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15-StringMethods", "StringMethods\15-StringMethods.csproj", "{BD11DCA1-E084-4958-90FC-E58AF6072655}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16-WorkWithArrayToFindNegativeValuesInIt", "WorkWithArrayToFindNegativeValuesInIt\16-WorkWithArrayToFindNegativeValuesInIt.csproj", "{6629F156-C044-4DA9-81B7-AEE352BD90E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{BD11DCA1-E084-4958-90FC-E58AF6072655}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD11DCA1-E084-4958-90FC-E58AF6072655}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD11DCA1-E084-4958-90FC-E58AF6072655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6629F156-C044-4DA9-81B7-AEE352BD90E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6629F156-C044-4DA9-81B7-AEE352BD90E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6629F156-C044-4DA9-81B7-AEE352BD90E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6629F156-C044-4DA9-81B7-AEE352BD90E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
