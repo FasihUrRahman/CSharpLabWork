@@ -8,4 +8,10 @@ int i = (int)tedt1; //Cast the Value as enum is value type and Store Int Data by
 Console.WriteLine(tedt);
 Console.WriteLine(tedt1);
 Console.WriteLine(i);
+TestEnumDataType1 tedt11 = TestEnumDataType1.FirstValue;
+TestEnumDataType1 tedt12 = TestEnumDataType1.SecondValue;
+Console.WriteLine(tedt11);
+Console.WriteLine(tedt12);
+short i1 = (short)tedt11;
+Console.WriteLine(i1);
 Console.ReadLine();
